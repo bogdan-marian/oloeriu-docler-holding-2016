@@ -1,0 +1,9 @@
+{  
+   "delayInSeconds":2,
+   "tcpIpTimeOut":5,
+   "hosts":[  
+      "jasmin.com",
+      "oranum.com"
+   ],
+   "reportingUrl":"http://localhost:8080/"
+}
