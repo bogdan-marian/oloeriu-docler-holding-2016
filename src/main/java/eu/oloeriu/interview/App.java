@@ -57,8 +57,8 @@ public class App implements ReportHandeler {
 			// app.pingIcm(host);
 			for (String host : hosts) {
 				// initiate threads
-				// app.pingIcm(host,settings.getDelayInSeconds());
-				// app.runTraceRt(host,settings.getDelayInSeconds());
+				app.pingIcm(host,settings.getDelayInSeconds());
+				app.runTraceRt(host,settings.getDelayInSeconds());
 				app.runPingTcp(host, settings.getTcpIpTimeOut(), settings.getDelayInSeconds());
 			}
 
